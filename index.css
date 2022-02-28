@@ -3,7 +3,6 @@
     padding:0;
 }
 body{
-    background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
     background-image:url('./Wall.jpg');
     background-position: center;
     background-size: contain;
@@ -36,7 +35,7 @@ li {
     margin-left: 1px;
     margin-right: 1px;
     padding-left: 6px;
-    list-style-type:decimal;
+    list-style-type:none;
 }
 hr{
     color: transparent;
@@ -50,13 +49,18 @@ hr{
     color: red;
     margin-left:20px;
 }
+.fa-trash-can:hover{
+    color: rgb(226, 8, 8);
+}
 .fa-trash-can:active{
     color: rgb(204, 6, 6);
 }
 
 .fa-pen-to-square{
-    /* margin-left:-30px; */
     color: rgb(4, 161, 4);
+}
+.fa-pen-to-square:hover{
+    color: rgb(0, 131, 0);
 }
 .fa-pen-to-square:active{
     color: rgb(3, 122, 3);
