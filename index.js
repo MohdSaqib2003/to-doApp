@@ -38,8 +38,7 @@ function addTask(){
     }else{
         const data = {
             id : Math.floor(Math.random() * 10000),
-            task : input_task.value,
-            status:false
+            task : input_task.value
         }    
         updated_array = [...tasks, data];
     }
