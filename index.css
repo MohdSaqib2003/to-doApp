@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
+    background-image:url('./Wall.jpg');
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.heading{
+    background-color:#484646;
+    font-family: fantasy;
+}
+.container-body{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.list-container{
+    text-align:left;    
+}
+
+li {
+    border: 2px solid black;
+    padding: 7px;
+    margin: -15px;
+    border-radius: 4px;
+    background-color: darkgrey;
+    background-color: #484646;
+    color: white;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 6px;
+    list-style-type:decimal;
+}
+hr{
+    color: transparent;
+}
+
+.buttons{
+    position: relative;
+    left: -20px;    
+}
+.fa-trash-can{
+    color: red;
+    margin-left:20px;
+}
+.fa-trash-can:active{
+    color: rgb(204, 6, 6);
+}
+
+.fa-pen-to-square{
+    /* margin-left:-30px; */
+    color: rgb(4, 161, 4);
+}
+.fa-pen-to-square:active{
+    color: rgb(3, 122, 3);
+}
